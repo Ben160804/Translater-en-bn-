@@ -16,7 +16,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 app = Flask(__name__)
 
 # Replace this with your actual GROQ API key
-GROQ_API_KEY = "GROQ_API_KEY"  # Make sure to replace this with your actual key
+GROQ_API_KEY = "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"  # Make sure to replace this with your actual key
 
 # URL for the Groq API chat completions endpoint
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
